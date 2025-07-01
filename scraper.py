@@ -47,8 +47,11 @@ while i<=pages:
             user_name = "Anonymous"
             review_date = "Unknown date"
 
+        review_data = block.find('p')
+        review_data_text = review_data.text.strip() if review_data else "N/A"
+
         if user_name != "Anonymous":
-            print(f"{user_name} | {review_date} | {review_text}")
+            print(f"{user_name} | {review_date} | {review_text} | {review_data_text}")
 
     
 
