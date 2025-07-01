@@ -1,0 +1,1 @@
+A basic snapdeal review scraper I built for another project. Use the same Base URL syntax as in the code ie 'https://www.snapdeal.com/product/product_name/productid/reviews' for the code to work. I've set the cooldown to 30 seconds however I think you can get it a bit lower if you really wanted to.
